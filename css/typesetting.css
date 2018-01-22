@@ -1,0 +1,71 @@
+/* Embedded Fonts */
+@font-face {
+	font-family: Chaparral;
+	src: url(../fonts/chaparral.otf);
+}
+
+@font-face {
+	font-family: Caslon;
+	src: url(../fonts/caslon.otf);
+}
+
+
+
+
+
+/* Container Items */
+
+html,body {
+	height: 100%;
+	width: 100%;
+
+}
+
+#cover {
+	width: 100%;
+	height: 100%;
+	background: url("../images/porcelain-sized-579a705c3df78c3276508daa.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+
+}
+
+#container {
+	position: relative;
+	top: 20px;
+	margin: 40px;
+
+}
+
+
+
+/* Paragraph Styles */
+
+.title {
+	font-family: Chaparral;
+	font-size: 150px;
+	color: #fffff4;
+	position: relative;
+	left: 40px;
+	top: 40px;
+}
+
+.author {
+
+}
+
+
+.text {
+	font-family: Caslon;
+	width:auto;
+	font-size: 20px;
+	color:inherit;
+	line-height:32px;
+	text-align:left;
+	color: #f9f9f9;
+
+}
+
+.italic {
+	font-style: italic;
+
+}
